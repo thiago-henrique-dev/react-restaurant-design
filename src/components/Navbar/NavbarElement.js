@@ -7,7 +7,7 @@ export const Nav = styled.div`
     height: 80px;
     display: flex;
     justify-content: center;
-    font-weight: 700;
+    font-weight: bold;
 `
 
 export const NavLink = styled(Link)` 
@@ -16,6 +16,7 @@ export const NavLink = styled(Link)`
     display: flex;
     align-items: center;
     text-decoration: none;
+    font-weight: bold;
     cursor: pointer;
 
 @media screen and (max-width: 400px) {
