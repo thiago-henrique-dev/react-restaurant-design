@@ -1,12 +1,12 @@
 import React from "react";
 import { Bars, Nav, NavLink, NavIcon }  from "./NavbarElement.js";
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
       <>
          <Nav>
             <NavLink to="/">Pizza</NavLink>
-            <NavIcon>
+            <NavIcon onClick={toggle}>
                 <p>Menu</p>
                 <Bars/>
             </NavIcon>
